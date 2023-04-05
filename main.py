@@ -25,7 +25,7 @@ class Person():
         
         while odp != los:
             i += 1
-            odp = int(input("Podaj liczbę: "))
+            odp = int(input("Give me a number: "))
             if odp > los:
                 print("The given number is less than yours")
             elif odp < los:
